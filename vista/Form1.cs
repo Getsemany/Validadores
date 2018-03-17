@@ -39,6 +39,10 @@ namespace vista
             {
                 cadena += "Edad : " + txtEdad.Text + "\n";
             }
+            if (da.esDigito(txtDigito.Text))
+            {
+                cadena += "Digito : " + txtDigito.Text + "\n";
+            }
             if (cadena.Equals(""))
             {
                 MessageBox.Show("Todas rechazadas");

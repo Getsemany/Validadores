@@ -59,5 +59,52 @@ namespace datos
             catch { }
             return res;
         }
+        public bool esDigito(string a)
+        {
+            bool res = false;
+            string min = a.ToLower();
+            if (min.Equals("cero"))
+            {
+                res = true;
+            }
+            else if (min.Equals("uno"))
+            {
+                res = true;
+            }
+            else if (min.Equals("dos"))
+            {
+                res = true;
+            }
+            else if (min.Equals("tres"))
+            {
+                res = true;
+            }
+            else if (min.Equals("cuatro"))
+            {
+                res = true;
+            }
+            else if (min.Equals("cinco"))
+            {
+                res = true;
+            }
+            else if (min.Equals("seis"))
+            {
+                res = true;
+            }
+            else if (min.Equals("siete"))
+            {
+                res = true;
+            }
+            else if (min.Equals("ocho"))
+            {
+                res = true;
+            }
+            else if (min.Equals("nueve"))
+            {
+                res = true;
+            }
+
+            return res;
+        }
     }
 }
